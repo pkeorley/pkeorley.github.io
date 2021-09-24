@@ -8,6 +8,22 @@ body {
 }
 
 .main-basic {
+    padding: 1rem;
+    margin: 45px;
     text-align: center;
-    border: 2px solid #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.main-basic:hover {
+    background-color: rgba(238, 130, 238, 0.115);
+}
+
+.footer-basic {
+    margin: 45px;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+
+.footer-basic:hover {
+    background-color: rgba(238, 130, 238, 0.115);
 }
