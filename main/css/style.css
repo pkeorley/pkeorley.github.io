@@ -7,3 +7,7 @@ body {
     background-color: black;
     text-align: center;
 }
+
+.main-basic {
+    border: 1px solid #ffffff;
+}
