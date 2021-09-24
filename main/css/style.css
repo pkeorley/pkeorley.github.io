@@ -5,9 +5,9 @@ html {
 body {
     background-image: url(https://oir.mobi/uploads/posts/2021-03/1616535672_28-p-neon-fon-30.jpg);
     background-color: black;
-    text-align: center;
 }
 
 .main-basic {
+    text-align: center;
     border: 2px solid #ffffff;
 }
