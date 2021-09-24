@@ -8,8 +8,8 @@ body {
 }
 
 .main-basic {
-    padding: 1rem;
-    margin: 45px;
+    padding: 15px;
+    margin: 20px;
     text-align: center;
     border: 1px solid #ffffff;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .footer-basic {
-    margin: 45px;
+    margin: 20px;
     text-align: center;
     border: 1px solid #ffffff;
 }
