@@ -6,7 +6,9 @@ html {
 
 body {
     padding-left: 15px;
+    padding-bottom: 15px;
     padding-top: 8px;
+    padding-right: 8px;
     font-size: 10px;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
@@ -23,6 +25,16 @@ body {
     margin-bottom: 35px;
 }
 
+.div-basic {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.span-basic {
+    margin-left: 10px;
+}
+
 .main-basic {
     border: 1.5px solid #000;
     border-radius: 3px;
@@ -33,6 +45,46 @@ body {
     margin-bottom: 35px;
 }
 
+.footer-basic {
+    text-align: center;
+    font-size: 7px;
+    color: #d4d4d4;
+    border: 1.5px solid #000;
+    border-radius: 3px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 35px;
+    margin-bottom: 35px;
+}
+
+.header-basic:hover {
+    background-color: #2b2e3154;
+}
+
+.main-basic:hover {
+    background-color: #2b2e3154;
+}
+
+.footer-basic:hover {
+    background-color: #2b2e3154;
+}
+
+.ul {
+    font-size: 15px;
+}
+
+@media (max-width: 1022px) {
+    .header-nav {
+      display: none;
+    }
+    .section {
+      display: flex;
+    }
+    .list-inline-item {
+      display: block;
+    }
+  }
 .footer-basic {
     text-align: center;
     font-size: 7px;
