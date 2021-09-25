@@ -2,40 +2,14 @@ html {
     height: 100%;
 }
 
-body {
-    background-color: #676767;
-}
-
-.main-basic {
-    padding: 15px;
-    margin: 20px;
-    text-align: center;
-    border: 1px solid #ffffff;
-}
-
-.main-basic:hover {
-    background-color: rgba(238, 130, 238, 0.115);
-}
-
-.footer-basic {
-    margin: 20px;
-    text-align: center;
-    border: 1px solid #ffffff;
-}
-
-.footer-basic:hover {
-    background-color: rgba(238, 130, 238, 0.115);
-}
-
-@media (max-width: 980px) {
-  .container {
-    margin: 10px;
-    padding: 10px;
+@media (max-width: 1022px) {
+    .header-nav {
+      display: none;
+    }
+    .section {
+      display: flex;
+    }
+    .list-inline-item {
+      display: block;
+    }
   }
-  .post-text {
-    font-size: 18px;
-  }
-  .post-title {
-    font-size: 48;
-  }
-}
