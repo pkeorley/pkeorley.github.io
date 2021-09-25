@@ -2,6 +2,12 @@ html {
     height: 100%;
 }
 
+body {
+    font-family: cursive;
+    color: rgb(236, 236, 236);
+    background-color: #262b2e;
+}
+
 @media (max-width: 1022px) {
     .header-nav {
       display: none;
