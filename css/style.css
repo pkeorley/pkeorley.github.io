@@ -50,6 +50,14 @@ body {
     text-align: center;
 }
 
+.li-basic-style {
+    color: rgb(245, 245, 245);
+}
+
+.li-basic-style:hover {
+    color: rgb(206, 206, 206);
+}
+
 .footer-basic {
     text-align: center;
     font-size: 7px;
