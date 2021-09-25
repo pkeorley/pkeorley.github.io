@@ -1,12 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 html {
     height: 100%;
 }
 
 body {
+    padding-left: 15px;
+    padding-top: 8px;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background-color: #383c42;
+}
+
+.header-basic {
+    border: 1.5px solid #000;
+    border-radius: 3px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 35px;
+}
+
+.main-basic {
+    border: 1.5px solid #000;
+    border-radius: 3px;
+    padding-top: 35px;
+    padding-bottom: 300px;
+    padding-left: 30px;
+    padding-right: 35px;
+    margin-bottom: 35px;
+}
+
+.footer-basic {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(236, 236, 236);
-    background-color: #262b2e;
+    font-size: 7px;
+    color: #d4d4d4;
+    border: 1.5px solid #000;
+    border-radius: 3px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 35px;
+    margin-bottom: 35px;
+}
+
+.header-basic:hover {
+    background-color: #34373b44;
+}
+
+.main-basic:hover {
+    background-color: #34373b44;
+}
+
+.footer-basic:hover {
+    background-color: #34373b44;
+}
+
+.ul {
+    font-size: 15px;
 }
 
 @media (max-width: 1022px) {
