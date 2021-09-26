@@ -22,3 +22,15 @@ body {
 .link-text {
     color: #673AB7;
 }
+
+@media (max-width: 1022px) {
+    .header-nav {
+      display: none;
+    }
+    .section {
+      display: flex;
+    }
+    .list-inline-item {
+      display: block;
+    }
+  }
