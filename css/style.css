@@ -60,7 +60,7 @@ body {
 
 .footer-basic {
     text-align: center;
-    font-size: 7px;
+    font-size: 8px;
     color: #f0f0f0;
     border: 1.5px solid #000;
     border-radius: 3px;
@@ -69,6 +69,11 @@ body {
     padding-left: 30px;
     padding-right: 35px;
     margin-bottom: 35px;
+}
+
+.to-new-page {
+    font-style: bold;
+    font-size: 22px;
 }
 
 .header-basic:hover {
