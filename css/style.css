@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 8px;
+    padding-right: 8px;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background-color: #383c42;
+}
+
+.header-basic {
+    border: 1.5px solid #000;
+    border-radius: 3px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 35px;
+}
+
+.div-basic {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.span-basic {
+    margin-left: 10px;
+}
+
+.main-basic {
+    border: 1.5px solid #000;
+    border-radius: 3px;
+    padding-top: 35px;
+    padding-bottom: 300px;
+    padding-left: 30px;
+    padding-right: 35px;
+    margin-bottom: 35px;
+}
+
+.ul-basic {
+    font-size: 15px;
+    text-align: center;
+}
+
+.li-basic-style {
+    color: rgb(245, 245, 245);
+}
+
+.li-basic-style:hover {
+    color: rgb(206, 206, 206);
+}
+
+.footer-basic {
+    text-align: center;
+    font-size: 8px;
+    color: #f0f0f0;
+    border: 1.5px solid #000;
+    border-radius: 3px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 35px;
+    margin-bottom: 35px;
+}
+
+.to-new-page {
+    font-style: bold;
+    font-size: 22px;
+}
+
+.header-basic:hover {
+    background-color: #2b2e3154;
+}
+
+.main-basic:hover {
+    background-color: #2b2e3154;
+}
+
+.footer-basic:hover {
+    background-color: #2b2e3154;
+}
+
+.ul {
+    font-size: 15px;
+}
+
+@media (max-width: 1022px) {
+    .header-nav {
+      display: none;
+    }
+    .section {
+      display: flex;
+    }
+    .list-inline-item {
+      display: block;
+    }
+  }
